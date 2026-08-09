@@ -213,7 +213,7 @@ export const projects = [
     date: "Sept 2025 - Oct 2025",
     description:
       "Conceptualized and deployed an AI-driven automated code review platform that streamlines static code evaluation and refactoring feedback. Engineered an interactive, multi-language client-side code editor utilizing component-driven React.js architecture. Constructed secure RESTful backend endpoints integrated with the Gemini API to deliver asynchronous, real-time code optimization suggestions. Validated and refined prompt engineering parameters against diverse code bases to improve accuracy and relevance of AI recommendations.",
-    image:"https://cdn.mos.cms.futurecdn.net/3eSHhTo4WUYwXJUpMCxEUo-1200-80.jpg",
+    image:"https://res.cloudinary.com/wrnzq3ut/image/upload/v1786246081/fa0d93d8-8e63-4dad-86ad-eb446ac6e771.png",
     tags: [
       "React.js",
       "Node.js",
