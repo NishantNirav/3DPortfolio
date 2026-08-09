@@ -1,59 +1,44 @@
+
 export const Bio = {
-  name: "Rishav Chanda",
+  name: "Nishant Nirav",
   roles: [
     "Full Stack Developer",
-    "Android Developer",
-    "UI/UX Designer",
+    "Data Analyst",
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/rishavchanda",
+    "Detail-oriented Full Stack Developer and Data Analyst with practical experience in engineering web applications and performing data-driven problem solving. Skilled across the modern JavaScript ecosystem (React.js, Node.js, Express.js, MongoDB) alongside Python. Experienced in creating secure RESTful APIs, interactive dashboards, and AI-driven platforms. Possesses a strong analytical mindset to translate raw data and complex business requirements into scalable, end-to-end software solutions.",
+  github: "https://github.com/NishantNirav/",
   resume:
-    "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+    "https://drive.google.com/file/d/12P-Sdo4AlaeM3JCgWWAtefkroW1CShjH/view?usp=sharing",
+  linkedin: "https://linkedin.com/in/nishant-nirava",
+  twitter: "#",
+  insta: "#",
+  facebook: "#",
 };
 
 export const skills = [
   {
-    title: "Frontend",
+    title: "Frontend & UI Engineering",
     skills: [
       {
-        name: "React Js",
+        name: "React.js",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      },
-      {
-        name: "Next Js",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-      },
-      {
-        name: "Angular Js",
-        image:
-          "https://camo.githubusercontent.com/8886130b3d8aba95dbdd7c4f9a41029606424cc06d1873c1ced87dd55a222fef/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61722f616e67756c61722e737667",
-      },
-      {
-        name: "HTML",
+        name: "HTML5",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
       {
-        name: "CSS",
+        name: "CSS3",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Devicon-css3-plain-wordmark.svg/960px-Devicon-css3-plain-wordmark.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       },
       {
-        name: "JavaScript",
+        name: "JavaScript (ES6+)",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       },
       {
         name: "Bootstrap",
@@ -61,32 +46,23 @@ export const skills = [
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
       {
-        name: "Material UI",
+        name: "Tailwind CSS",
         image:
-          "data:image/png;base64,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",
-      },
-      {
-        name: "Flutter",
-        image:
-          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+          "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
       },
     ],
   },
   {
-    title: "Backend",
+    title: "Backend & APIs",
     skills: [
       {
-        name: "Node Js",
+        name: "Node.js",
         image: "https://nodejs.org/static/images/logo.svg",
       },
       {
-        name: "Express Js",
+        name: "Express.js",
         image:
           "data:image/png;base64,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",
-      },
-      {
-        name: "Graph Ql",
-        image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
       },
       {
         name: "Python",
@@ -94,146 +70,33 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
       {
-        name: "Flask",
+        name: "Java",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
-      {
-        name: "Django",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlFFyY16N5NRhzoG24RqB7x8Ok2t8Bdgs-tuMsOBXS2Q&s",
-      },
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
-        name: "Postgresql",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      },
+    ],
+  },
+  {
+    title: "Databases",
+    skills: [
       {
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        name: "Mongoose",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+      {
+        name: "SQLite",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/38/SQLite370.svg",
       },
     ],
   },
   {
-    title: "DevOps",
-    skills: [
-      {
-        name: "AWS",
-        image:
-          "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
-      },
-      {
-        name: "Google Cloud",
-        image:
-          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
-      },
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
-      {
-        name: "Jenkins",
-        image:
-          "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
-      },
-      {
-        name: "Nginx",
-        image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
-      },
-      {
-        name: "Grafana",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-      },
-      {
-        name: "Kubernetes",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-      },
-      {
-        name: "Prometheus",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
-      },
-    ],
-  },
-  {
-    title: "Android",
-    skills: [
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      {
-        name: "Kotlin",
-        image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-      },
-      {
-        name: "Jetpack Compose",
-        image:
-          "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
-      },
-      {
-        name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      },
-      {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-      },
-    ],
-  },
-  {
-    title: "Machine Learning",
-    skills: [
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "Tenserflow",
-        image:
-          "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
-      },
-      {
-        name: "Keras",
-        image:
-          "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
-      },
-      {
-        name: "Jupyter",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
-      },
-      {
-        name: "Google Colab",
-        image:
-          "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
-      },
-      {
-        name: "Sk Learn Kit",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
-      },
-    ],
-  },
-  {
-    title: "Others",
+    title: "Tools & Platforms",
     skills: [
       {
         name: "Git",
@@ -246,29 +109,19 @@ export const skills = [
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
-        name: "Netlify",
+        name: "Postman",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "https://voyager.postman.com/logo/postman-logo-icon-orange.svg",
       },
       {
         name: "VS Code",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+          "data:image/jpeg;base64,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",
       },
       {
-        name: "Postman",
+        name: "npm",
         image:
-          "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
-      },
-      {
-        name: "Adobe XD",
-        image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/960px-Npm-logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       },
     ],
   },
@@ -277,348 +130,111 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Nov 2023",
-    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+    img: "https://media.licdn.com/dms/image/v2/C510BAQFPqz7rsBCPCA/company-logo_200_200/company-logo_200_200/0/1630605366015/midbrains_technologies_logo?e=2147483647&v=beta&t=Mkt_RDQneqWhRqS0k6GZdgEynpDmoFva9OayYre3M0c",
+    role: "Data Analyst Intern",
+    company: "Midbrains Technologies",
+    date: "Feb 2026 - May 2026",
+    desc: "Orchestrated data extraction, transformation, and analysis workflows using Python to uncover operational metrics and key performance trends. Developed dynamic, interactive data visualization dashboards and automated reporting solutions, enabling data-informed decision-making for stakeholders. Executed data cleaning, structural normalization, and exploratory analysis across multi-source datasets to ensure data integrity and query accuracy.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
+      "Python",
+      "PowerBI",
+      "Tableau",
+      "Data Extraction",
+      "Data Visualization",
+      "Data Cleaning",
+
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
-  },
-  {
-    id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - Oct 2023",
-    desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
-    skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
-  },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
-    skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-  },
-  {
-    id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
-  },
-  {
-    id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-    skills: [
-      "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
-    ],
-  },
-  {
-    id: 5,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributed to different open-source projects and learn from industry experts",
+    doc: "#",
   },
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.41 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    img: "https://www.ips.edu.in/wp-content/uploads/2018/06/sppu.jpg",
+    school: "Savitribai Phule Pune University",
+    date: "Sept 2024 - Jul 2026",
+    grade: "8.25 CGPA",
+    desc: "Master of Computer Applications (MCA)",
+    degree: "Master of Computer Applications (MCA)",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0LkgGU7RRMIvRSuYGVqgTOWzLDDT5J2UAXg2ck7Ol6wh2jxhEXrTibqVg&s=10",
+    school: "Patliputra University",
+    date: "Oct 2021 - Jul 2024",
+    grade: "62.68%",
+    desc: "Bachelor of Computer Applications (BCA)",
+    degree: "Bachelor of Computer Applications (BCA)",
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
+    img: "https://logowik.com/content/uploads/images/cbse-central-board-of-secondary-education-colored7663.jpg",
+    school: "Central Board of Secondary Education",
+    date: "Apr 2019 - Jul 2021",
+    grade: "59.80%",
+    desc: "Higher Secondary Certificate (HSC) / Class XII",
+    degree: "Higher Secondary Certificate (HSC) / Class XII",
+  },
+  {
+    id: 3,
+    img: "https://i.pinimg.com/736x/fa/61/c8/fa61c81a275038ae0e59ed64e44788f4.jpg",
+    school: "Bihar School Examination Board",
+    date: "Apr 2018 - Apr 2019",
+    grade: "64.20%",
+    desc: "Secondary School Certificate (SSC) / Class X",
+    degree: "Secondary School Certificate (SSC) / Class X",
   },
 ];
 
 export const projects = [
   {
-    id: 11,
-    title: "DecisionHub",
-    date: "Jan 2024 - Dec 2023",
+    id: 2,
+    title: "FitTrack – Personal Fitness & Workout Tracker",
+    date: "Jan 2026 - Jan 2026",
     description:
-      "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
+      "Architected a full-stack health telemetry web application engineered to log daily physical activities, workout routines, and fitness milestones. Designed responsive client-side visual dashboards leveraging Chart.js to render real-time fitness metrics and long-term activity progression. Implemented stateless JSON Web Token (JWT) authentication and optimized RESTful endpoints for secure, low-latency user session persistence. Utilized MongoDB aggregation pipelines to perform complex server-side computations for weekly activity summaries and performance analytics.",
     image:
-      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpSKn4wBk__h4YDylQmXT9yHIo52h7f_HDEQ&s",
     tags: [
-      "React Js",
-      "PostgressSQL",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "React Flow",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Chart.js",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/DecisionHub",
-    webapp: "https://decisionhub.netlify.app/",
-  },
-  {
-    id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify-management.netlify.app/",
-  },
-  {
-    id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
-    description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+    github: "https://github.com/NishantNirav/FitTrack",
+    webapp: "https://fit-track-client-drab.vercel.app/",
   },
   {
     id: 1,
-    title: "Vexa",
-    date: "Oct 2022 - Jan 2023",
+    title: "CodeBuddy – AI-Powered Code Reviewer",
+    date: "Sept 2025 - Oct 2025",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "Conceptualized and deployed an AI-driven automated code review platform that streamlines static code evaluation and refactoring feedback. Engineered an interactive, multi-language client-side code editor utilizing component-driven React.js architecture. Constructed secure RESTful backend endpoints integrated with the Gemini API to deliver asynchronous, real-time code optimization suggestions. Validated and refined prompt engineering parameters against diverse code bases to improve accuracy and relevance of AI recommendations.",
+    image:"https://cdn.mos.cms.futurecdn.net/3eSHhTo4WUYwXJUpMCxEUo-1200-80.jpg",
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Gemini API",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "https://github.com/NishantNirav/CodeBuddy",
+    webapp: "",
   },
   {
-    id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
+    id: 0,
+    title: "Exams.net – Online Exam Portal",
+    date: "Oct 2024 - Oct 2024",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "Engineered an online examination platform supporting 50+ concurrent active testing sessions with high responsiveness and uptime. Implemented fine-grained Role-Based Access Control (RBAC) to dynamically serve distinct administrative and candidate dashboards. Embedded automated proctoring features, including browser tab-switch detection and Developer Console restriction, ensuring examination integrity. Automated real-time evaluation pipelines and performance analytics, significantly reducing manual grading effort for instructors.",
     image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
-    description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    image:
-      "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-  },
-  {
-    id: 10,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
-  },
-  {
-    id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
-    description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+      "https://www.euroschoolindia.com/blogs/wp-content/uploads/2023/06/study-tips-for-final-exams.jpg",
+    tags: ["Django", "SQLite", "Bootstrap", "JavaScript"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
-  },
-  {
-    id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
-    description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image:
-      "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
-  },
-  {
-    id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
-    description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:
-      "https://camo.githubusercontent.com/937774368308a82419f53dd6eeb4a8675780e119636488b4e3cfe5d34859a72a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
-  },
-  {
-    id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
-    description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
-  },
-  {
-    id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
-    description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image:
-      "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    github: "https://github.com/NishantNirav/Exams.net",
+    webapp: "",
   },
 ];
-

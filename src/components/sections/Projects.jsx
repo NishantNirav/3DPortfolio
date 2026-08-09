@@ -6,10 +6,10 @@ import ProjectCard from "../cards/ProjectCard";
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-contnet: center;
+  justify-content: center;
   margin-top: 50px;
   padding: 0px 16px;
-  position: rlative;
+  position: relative;
   z-index: 1;
   align-items: center;
 `;
@@ -27,6 +27,7 @@ const Wrapper = styled.div`
     flex-direction: column;
   }
 `;
+
 const Title = styled.div`
   font-size: 52px;
   text-align: center;
@@ -38,6 +39,7 @@ const Title = styled.div`
     font-size: 32px;
   }
 `;
+
 const Desc = styled.div`
   font-size: 18px;
   text-align: center;
@@ -54,12 +56,13 @@ const ToggleButtonGroup = styled.div`
   color: ${({ theme }) => theme.primary};
   font-size: 16px;
   border-radius: 12px;
-font-weight 500;
-margin: 22px 0;
-@media (max-width: 768px){
+  font-weight: 500;
+  margin: 22px 0;
+  @media (max-width: 768px) {
     font-size: 12px;
-}
+  }
 `;
+
 const ToggleButton = styled.div`
   padding: 8px 18px;
   border-radius: 6px;
@@ -77,6 +80,7 @@ const ToggleButton = styled.div`
   background:  ${theme.primary + 20};
   `}
 `;
+
 const Divider = styled.div`
   width: 1.5px;
   background: ${({ theme }) => theme.primary};
@@ -90,8 +94,22 @@ const CardContainer = styled.div`
   flex-wrap: wrap;
 `;
 
+const NoProjectsMessage = styled.div`
+  font-size: 20px;
+  font-weight: 500;
+  color: ${({ theme }) => theme.text_primary};
+  margin-top: 20px;
+  text-align: center;
+`;
+
 const Projects = () => {
   const [toggle, setToggle] = useState("all");
+
+  const filteredProjects =
+    toggle === "all"
+      ? projects
+      : projects.filter((item) => item.category === toggle);
+
   return (
     <Container id="Projects">
       <Wrapper>
@@ -117,7 +135,7 @@ const Projects = () => {
             active={toggle === "web app"}
             onClick={() => setToggle("web app")}
           >
-            WEB APP"S
+            WEB APP'S
           </ToggleButton>
           <Divider />
           <ToggleButton
@@ -136,13 +154,13 @@ const Projects = () => {
         </ToggleButtonGroup>
 
         <CardContainer>
-          {toggle === "all" &&
-            projects.map((project) => <ProjectCard project={project} />)}
-          {projects
-            .filter((item) => item.category === toggle)
-            .map((project) => (
-              <ProjectCard project={project} />
-            ))}
+          {filteredProjects.length === 0 ? (
+            <NoProjectsMessage>No projects made in this category</NoProjectsMessage>
+          ) : (
+            filteredProjects.map((project, index) => (
+              <ProjectCard key={index} project={project} />
+            ))
+          )}
         </CardContainer>
       </Wrapper>
     </Container>
