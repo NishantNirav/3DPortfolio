@@ -213,7 +213,7 @@ export const projects = [
     date: "Sept 2025 - Oct 2025",
     description:
       "Conceptualized and deployed an AI-driven automated code review platform that streamlines static code evaluation and refactoring feedback. Engineered an interactive, multi-language client-side code editor utilizing component-driven React.js architecture. Constructed secure RESTful backend endpoints integrated with the Gemini API to deliver asynchronous, real-time code optimization suggestions. Validated and refined prompt engineering parameters against diverse code bases to improve accuracy and relevance of AI recommendations.",
-    image:"https://cdn.mos.cms.futurecdn.net/3eSHhTo4WUYwXJUpMCxEUo-1200-80.jpg",
+    image:"https://github.com/NishantNirav/3DPortfolio/blob/main/public/Images/FitTracker.png",
     tags: [
       "React.js",
       "Node.js",
@@ -231,7 +231,7 @@ export const projects = [
     description:
       "Engineered an online examination platform supporting 50+ concurrent active testing sessions with high responsiveness and uptime. Implemented fine-grained Role-Based Access Control (RBAC) to dynamically serve distinct administrative and candidate dashboards. Embedded automated proctoring features, including browser tab-switch detection and Developer Console restriction, ensuring examination integrity. Automated real-time evaluation pipelines and performance analytics, significantly reducing manual grading effort for instructors.",
     image:
-      "https://www.euroschoolindia.com/blogs/wp-content/uploads/2023/06/study-tips-for-final-exams.jpg",
+      "https://github.com/NishantNirav/3DPortfolio/blob/main/public/Images/Examnet.png",
     tags: ["Django", "SQLite", "Bootstrap", "JavaScript"],
     category: "web app",
     github: "https://github.com/NishantNirav/Exams.net",
