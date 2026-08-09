@@ -195,7 +195,7 @@ export const projects = [
     description:
       "Architected a full-stack health telemetry web application engineered to log daily physical activities, workout routines, and fitness milestones. Designed responsive client-side visual dashboards leveraging Chart.js to render real-time fitness metrics and long-term activity progression. Implemented stateless JSON Web Token (JWT) authentication and optimized RESTful endpoints for secure, low-latency user session persistence. Utilized MongoDB aggregation pipelines to perform complex server-side computations for weekly activity summaries and performance analytics.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpSKn4wBk__h4YDylQmXT9yHIo52h7f_HDEQ&s",
+      "https://github.com/NishantNirav/3DPortfolio/blob/main/public/Images/FitTracker.png",
     tags: [
       "React.js",
       "Node.js",
@@ -213,7 +213,7 @@ export const projects = [
     date: "Sept 2025 - Oct 2025",
     description:
       "Conceptualized and deployed an AI-driven automated code review platform that streamlines static code evaluation and refactoring feedback. Engineered an interactive, multi-language client-side code editor utilizing component-driven React.js architecture. Constructed secure RESTful backend endpoints integrated with the Gemini API to deliver asynchronous, real-time code optimization suggestions. Validated and refined prompt engineering parameters against diverse code bases to improve accuracy and relevance of AI recommendations.",
-    image:"https://github.com/NishantNirav/3DPortfolio/blob/main/public/Images/FitTracker.png",
+    image:"https://cdn.mos.cms.futurecdn.net/3eSHhTo4WUYwXJUpMCxEUo-1200-80.jpg",
     tags: [
       "React.js",
       "Node.js",
