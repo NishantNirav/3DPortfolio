@@ -195,7 +195,7 @@ export const projects = [
     description:
       "Architected a full-stack health telemetry web application engineered to log daily physical activities, workout routines, and fitness milestones. Designed responsive client-side visual dashboards leveraging Chart.js to render real-time fitness metrics and long-term activity progression. Implemented stateless JSON Web Token (JWT) authentication and optimized RESTful endpoints for secure, low-latency user session persistence. Utilized MongoDB aggregation pipelines to perform complex server-side computations for weekly activity summaries and performance analytics.",
     image:
-      "https://github.com/NishantNirav/3DPortfolio/blob/main/public/Images/FitTracker.png",
+      "https://res.cloudinary.com/wrnzq3ut/image/upload/v1786245578/Screenshot_2026-08-09_082359_dh5jha.png",
     tags: [
       "React.js",
       "Node.js",
@@ -231,7 +231,7 @@ export const projects = [
     description:
       "Engineered an online examination platform supporting 50+ concurrent active testing sessions with high responsiveness and uptime. Implemented fine-grained Role-Based Access Control (RBAC) to dynamically serve distinct administrative and candidate dashboards. Embedded automated proctoring features, including browser tab-switch detection and Developer Console restriction, ensuring examination integrity. Automated real-time evaluation pipelines and performance analytics, significantly reducing manual grading effort for instructors.",
     image:
-      "https://github.com/NishantNirav/3DPortfolio/blob/main/public/Images/Examnet.png",
+      "https://res.cloudinary.com/wrnzq3ut/image/upload/v1786245640/Examnet_sprweu.png",
     tags: ["Django", "SQLite", "Bootstrap", "JavaScript"],
     category: "web app",
     github: "https://github.com/NishantNirav/Exams.net",
